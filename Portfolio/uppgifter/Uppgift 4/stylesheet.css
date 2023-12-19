@@ -1,0 +1,83 @@
+.primary-navigation {
+    font-family: 'Times New Roman', Times, serif;
+    display:flex; 
+    flex-wrap: nowrap;
+    list-style-type: none;
+    gap:2rem;
+}
+.link:hover{
+    color: red;
+
+}
+
+.video{
+display: flex;
+justify-content: center;
+}
+
+
+
+body{
+ height:100vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+
+}
+
+
+.parent{
+    background-color: rgb(232, 0, 0);
+    width:30%;
+    aspect-ratio: 1;
+    
+}
+
+.child{
+    background-color: blue;
+    width: 50%;
+    aspect-ratio: 1;
+
+}
+
+
+
+nav{
+    
+    display:flex;
+    justify-content:flex-end;
+    margin-right: 5% ;
+}
+
+.child{
+    animation: movebox 3s infinite;
+}
+
+@keyframes movebox  {
+    
+    0%{
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(100%);
+    }
+
+    50%{
+        transform: translateY(100%) translateX(100%);
+    }
+
+    75%{
+        transform: translateY(100%) translateX(100%);
+    }
+
+    100%{
+        transform: translateY(100%);
+    }
+
+
+
+}

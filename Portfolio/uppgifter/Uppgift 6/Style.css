@@ -1,0 +1,21 @@
+.primary-navigation{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    list-style-type: none;
+    padding-right: 10rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h1{
+    padding-left: 10rem;
+
+}
+

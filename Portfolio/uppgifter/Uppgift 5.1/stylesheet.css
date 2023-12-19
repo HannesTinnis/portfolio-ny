@@ -1,0 +1,42 @@
+.huvud{
+    background-color: white;
+    height: 100rem;
+    padding: 1rem;
+    list-style: none;
+}
+
+
+
+.a{
+ background-color: black;
+ color: aqua;
+ padding: 8px;
+ position: sticky;
+ top:0;
+ font-size:x-large;
+
+}
+
+.b{
+ background-color: black;
+ color: aqua;
+ padding: 8px;
+ position: sticky;
+ top:0;
+ font-size:x-large;
+
+}
+
+.c{
+ background-color: black;
+ color: aqua;
+ padding: 8px;
+ position: sticky;
+ top:0;
+ font-size:x-large;
+   
+}
+
+ul{
+    list-style:none;
+}

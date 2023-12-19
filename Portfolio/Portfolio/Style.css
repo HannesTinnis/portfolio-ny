@@ -1,0 +1,50 @@
+body{
+    margin:0;
+    background-image: linear-gradient(to right,#141e30,#243b55);
+}
+
+
+
+
+.primary-navigation{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    list-style-type: none;
+    padding-right: 10rem;
+    
+}
+.primary-navigation a{
+    text-decoration: none;
+    color:white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,#F3904F,#3B4371);
+}
+
+
+h1{
+    color: white;
+}
+.title{
+    padding-left: 10rem;
+}
+.primary{
+    display: flex;
+    background-color: navy;
+}
+
+h1{
+    color:white;
+}
+.rubrik{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
