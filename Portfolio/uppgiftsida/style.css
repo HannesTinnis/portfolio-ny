@@ -79,4 +79,7 @@ p{
     display: flex;
     justify-content: center;
     padding-top: 1%;
+    position: sticky;
+    top:0rem;
+    background: linear-gradient(to top, #141e3064, #141e30)
 }
